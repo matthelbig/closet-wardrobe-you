@@ -1496,7 +1496,7 @@ section * {
 }
 /* footer */
 /**
- * Footer 3 stylesheet  
+ * Footer 3 stylesheet
  * */
 .footer-3 {
   font-size: 14px;
@@ -1660,10 +1660,9 @@ section * {
 }
 .content-23.custom-bg {
   background-image: url('../img/shellie.jpg');
-
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
 }
 .footer-3 {
   background-color: #1B1F23;
