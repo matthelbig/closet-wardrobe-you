@@ -1475,6 +1475,13 @@ section * {
     font-weight: 600;
     line-height: 33px;
   }
+  /* mobile fix */
+.content-23.custom-bg {
+  background-position: 0px 0px !important;
+  background-repeat: no-repeat;
+}
+
+/* end mobile fix */
 }
 .content-23 .hero-unit.hero-unit-bordered h1 {
   font-size: 46px;
