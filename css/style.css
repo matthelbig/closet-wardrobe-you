@@ -991,6 +991,7 @@ section * {
   color: #ffffff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
+  -webkit-animation:fadeUp 800ms ease;-moz-animation:fadeUp 800ms ease;-o-animation:fadeUp 800ms ease;-ms-animation:fadeUp 800ms ease;animation:fadeUp 800ms ease;
 }
 .header-10-sub .hero-unit p {
   font-size: 25px;
@@ -999,6 +1000,7 @@ section * {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 37.5px;
+  -webkit-animation:fadeUp 800ms ease;-moz-animation:fadeUp 800ms ease;-o-animation:fadeUp 800ms ease;-ms-animation:fadeUp 800ms ease;animation:fadeUp 800ms ease;
 }
 @media (max-width: 480px) {
   .header-10-sub .hero-unit h1 {
@@ -1682,3 +1684,5 @@ section * {
   color: #34495e;
   font-weight: 300;
 }
+
+@-webkit-keyframes fadeUp{0%{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);-webkit-transform:translateY(30px) scale(.98)}70%{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);-webkit-transform:translateY(30px) scale(.98)}100%{opacity:1;-ms-filter:none;filter:none;-webkit-transform:translateY(0) scale(1)}}@-moz-keyframes fadeUp{0%{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);-moz-transform:translateY(30px) scale(.98)}70%{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);-moz-transform:translateY(30px) scale(.98)}100%{opacity:1;-ms-filter:none;filter:none;-moz-transform:translateY(0) scale(1)}}
