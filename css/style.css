@@ -1649,7 +1649,7 @@ section * {
   position: relative;
   z-index: 50;
   height: 800px;
-  background-image: url("../img/shellie.jpg");
+  background-image: url("../img/photo2.jpg");
 }
 .header-20-sub.v-center,
 .header-20-sub .v-center {
@@ -1713,7 +1713,7 @@ section * {
   position: relative;
   height: 400px;
   background: 
-  background-image: url("../img/shellie.jpg") no-repeat top center;
+  background-image: url("../img/photo2.jpg") no-repeat top center;
   background-size: cover;
 -moz-background-size: cover;
 -webkit-background-size: cover;
