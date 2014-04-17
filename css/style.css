@@ -1643,15 +1643,12 @@ section * {
   padding-bottom: 0;
   height: 80px;
   background: #233240;
-  color: white;
 }
 
 .header-20-sub {
   position: relative;
   z-index: 50;
   height: 800px;
-  color: white;
-  text-align: center;
   background-image: url("../img/shellie.jpg");
 }
 .header-20-sub.v-center,
@@ -1711,14 +1708,22 @@ section * {
   .header-20-sub.v-center > div {
     padding-top: 35px;
   }
+
+  .header-20-sub {
+  position: relative;
+  height: 400px;
+  background: 
+  background-image: url("../img/shellie.jpg") no-repeat top center;
+  background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+}
 }
 
 
 @media (max-width: 767px) {
 
-.header-20-sub .background {
-  background-image: url("../img/img-3.jpg");
-}
 .header-20 {
   background-color: #1b1f23;
 }
