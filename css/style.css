@@ -1454,7 +1454,7 @@ section * {
 
   .content-23.custom-bg {
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: cover !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
