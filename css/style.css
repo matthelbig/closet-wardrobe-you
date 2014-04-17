@@ -1568,6 +1568,7 @@ section * {
   opacity: 0.85;
   filter: alpha(opacity=85);
 }
+
 .header-10 {
   background-color: #1b1f23;
 }
@@ -1629,3 +1630,96 @@ section * {
   color: #34495e;
   font-weight: 300;
 }
+
+
+
+
+< -- section -->
+
+.header-20 {
+  z-index: 100;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 80px;
+  background: #233240;
+  color: white;
+}
+
+.header-20-sub {
+  position: relative;
+  z-index: 50;
+  height: 800px;
+  color: white;
+  text-align: center;
+  background-image: url("../img/shellie.jpg");
+}
+.header-20-sub.v-center,
+.header-20-sub .v-center {
+  display: table;
+  width: 100%;
+}
+.header-20-sub.v-center > div,
+.header-20-sub .v-center > div {
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: none;
+}
+@media (min-width: 768px) {
+  .header-20-sub.v-center.row:before,
+  .header-20-sub .v-center.row:before,
+  .header-20-sub.v-center.row:after,
+  .header-20-sub .v-center.row:after {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .header-20-sub.v-center,
+  .header-20-sub .v-center {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header-20-sub.v-center.row,
+  .header-20-sub .v-center.row {
+    display: block;
+    width: auto;
+  }
+  .header-20-sub.v-center.row:before,
+  .header-20-sub .v-center.row:before,
+  .header-20-sub.v-center.row:after,
+  .header-20-sub .v-center.row:after {
+    display: none;
+  }
+  .header-20-sub.v-center.row > *,
+  .header-20-sub .v-center.row > * {
+    display: block;
+    vertical-align: baseline;
+  }
+}
+.header-20-sub .hero-unit {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+@media (max-width: 480px) {
+  .header-20-sub.v-center > div {
+    padding-top: 35px;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+.header-20-sub .background {
+  background-image: url("../img/img-3.jpg");
+}
+.header-20 {
+  background-color: #1b1f23;
+}
+
