@@ -797,7 +797,6 @@ section * {
   bottom: 0;
   z-index: 1;
   background: 50% 50% no-repeat;
-  background-size: cover;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1632,10 +1631,6 @@ section * {
 }
 
 
-
-
-< -- section -->
-
 .header-20 {
   z-index: 100;
   width: 100%;
@@ -1649,7 +1644,11 @@ section * {
   position: relative;
   z-index: 50;
   height: 800px;
-  background-image: url("../img/photo2.jpg");
+  background-image: url("../img/wardrobe-consulting.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .header-20-sub.v-center,
 .header-20-sub .v-center {
@@ -1712,8 +1711,7 @@ section * {
   .header-20-sub {
   position: relative;
   height: 400px;
-  background: 
-  background-image: url("../img/photo2.jpg") no-repeat top center;
+  background-image: url("../img/wardrobe-consulting-shellie.jpg") no-repeat top center;
   background-size: cover;
 -moz-background-size: cover;
 -webkit-background-size: cover;
@@ -1721,10 +1719,266 @@ section * {
 }
 }
 
-
-@media (max-width: 767px) {
-
-.header-20 {
-  background-color: #1b1f23;
+.header-30 {
+  z-index: 100;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 80px;
+  background: #233240;
 }
 
+.header-30-sub {
+  position: relative;
+  z-index: 50;
+  height: 800px;
+  background-image: url("../img/travel-white-bag.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header-30-sub.v-center,
+.header-30-sub .v-center {
+  display: table;
+  width: 100%;
+}
+.header-30-sub.v-center > div,
+.header-30-sub .v-center > div {
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: none;
+}
+@media (min-width: 768px) {
+  .header-30-sub.v-center.row:before,
+  .header-30-sub .v-center.row:before,
+  .header-30-sub.v-center.row:after,
+  .header-30-sub .v-center.row:after {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .header-30-sub.v-center,
+  .header-30-sub .v-center {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header-30-sub.v-center.row,
+  .header-30-sub .v-center.row {
+    display: block;
+    width: auto;
+  }
+  .header-30-sub.v-center.row:before,
+  .header-30-sub .v-center.row:before,
+  .header-30-sub.v-center.row:after,
+  .header-30-sub .v-center.row:after {
+    display: none;
+  }
+  .header-30-sub.v-center.row > *,
+  .header-30-sub .v-center.row > * {
+    display: block;
+    vertical-align: baseline;
+  }
+}
+.header-30-sub .hero-unit {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+@media (max-width: 480px) {
+  .header-30-sub.v-center > div {
+    padding-top: 35px;
+  }
+
+  .header-30-sub {
+  position: relative;
+  height: 400px;
+  background-image: url("../img/travel-white-bag.jpg") no-repeat top center;
+  background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+}
+}
+
+.header-40 {
+  z-index: 100;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 80px;
+  background: #233240;
+}
+
+.header-40-sub {
+  position: relative;
+  z-index: 50;
+  height: 800px;
+  background-image: url("../img/closet-organization.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header-40-sub.v-center,
+.header-40-sub .v-center {
+  display: table;
+  width: 100%;
+}
+.header-40-sub.v-center > div,
+.header-40-sub .v-center > div {
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: none;
+}
+@media (min-width: 768px) {
+  .header-40-sub.v-center.row:before,
+  .header-40-sub .v-center.row:before,
+  .header-40-sub.v-center.row:after,
+  .header-40-sub .v-center.row:after {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .header-40-sub.v-center,
+  .header-40-sub .v-center {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header-40-sub.v-center.row,
+  .header-40-sub .v-center.row {
+    display: block;
+    width: auto;
+  }
+  .header-40-sub.v-center.row:before,
+  .header-40-sub .v-center.row:before,
+  .header-40-sub.v-center.row:after,
+  .header-40-sub .v-center.row:after {
+    display: none;
+  }
+  .header-40-sub.v-center.row > *,
+  .header-40-sub .v-center.row > * {
+    display: block;
+    vertical-align: baseline;
+  }
+}
+.header-40-sub .hero-unit {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+@media (max-width: 480px) {
+  .header-40-sub.v-center > div {
+    padding-top: 35px;
+  }
+
+  .header-40-sub {
+  position: relative;
+  height: 400px;
+  background-image: url("../img/closet-organization.jpg") no-repeat top center;
+  background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+}
+}
+
+.header-50 {
+  z-index: 100;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 80px;
+  background: #233240;
+}
+
+.header-50-sub {
+  position: relative;
+  z-index: 50;
+  height: 400px;
+  background-image: url("../img/img-3.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header-50-sub.v-center,
+.header-50-sub .v-center {
+  display: table;
+  width: 100%;
+}
+.header-50-sub.v-center > div,
+.header-50-sub .v-center > div {
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: none;
+}
+@media (min-width: 768px) {
+  .header-50-sub.v-center.row:before,
+  .header-50-sub .v-center.row:before,
+  .header-50-sub.v-center.row:after,
+  .header-50-sub .v-center.row:after {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .header-50-sub.v-center,
+  .header-50-sub .v-center {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header-50-sub.v-center.row,
+  .header-50-sub .v-center.row {
+    display: block;
+    width: auto;
+  }
+  .header-50-sub.v-center.row:before,
+  .header-50-sub .v-center.row:before,
+  .header-50-sub.v-center.row:after,
+  .header-50-sub .v-center.row:after {
+    display: none;
+  }
+  .header-50-sub.v-center.row > *,
+  .header-50-sub .v-center.row > * {
+    display: block;
+    vertical-align: baseline;
+  }
+}
+.header-50-sub .hero-unit {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+@media (max-width: 480px) {
+  .header-50-sub.v-center > div {
+    padding-top: 35px;
+  }
+
+  .header-50-sub {
+  position: relative;
+  height: 200px;
+  background-image: url("../img/img-3.jpg") no-repeat top center;
+  background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+}
+}
