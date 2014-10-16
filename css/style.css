@@ -1908,7 +1908,7 @@ section * {
   position: relative;
   z-index: 50;
   height: 400px;
-  background-image: url("../img/img-3.jpg");
+  background-image: url("../img/img-bottom.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1981,4 +1981,30 @@ section * {
 -webkit-background-size: cover;
 -o-background-size: cover;
 }
+}
+
+.logos {
+  background: #f1f1f1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.logos a:hover {opacity: .7;}
+@media (max-width: 767px) {
+  .logos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+.logos > .container {
+  display: table;
+}
+.logos > .container > div {
+  display: table-cell;
+  text-align: center;
+}
+@media (max-width: 480px) {
+  .logos {
+    display: none;
+  }
 }
