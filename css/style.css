@@ -919,7 +919,7 @@ section * {
   margin: 0 0 30px;
   font-size: 45px;
   font-weight: normal;
-  color: #ffffff;
+  color: #fff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
@@ -1555,7 +1555,7 @@ section * {
   }
 }
 .header-10-sub .background {
-  background-image: url("../img/img-1.jpg");
+  background-image: url("../img/dark-theme.jpg");
   -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.05) 26%, rgba(0,0,0,0.5) 71%, rgba(0,0,0,0.7) 100%);
 }
 
