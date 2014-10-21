@@ -796,16 +796,12 @@ section * {
   right: 0;
   bottom: 0;
   z-index: 1;
-  background: 50% 50% no-repeat;
+  background: 50% 50% no-repeat:;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  opacity: 20;
-  filter: alpha(opacity=2000);
-  opacity: 0.2;
-  filter: alpha(opacity=20);
 }
 @media (max-width: 768px) {
   .background {
@@ -1560,14 +1556,11 @@ section * {
 }
 .header-10-sub .background {
   background-image: url("../img/img-1.jpg");
-  opacity: 85;
-  filter: alpha(opacity=8500);
-  opacity: 0.85;
-  filter: alpha(opacity=85);
+  -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.05) 26%, rgba(0,0,0,0.5) 71%, rgba(0,0,0,0.7) 100%);
 }
 
 .header-10 {
-  background-color: #1b1f23;
+  background-color: #565656;
 }
 .header-10 .btn:hover,
 .header-10 .btn.active,
@@ -1641,7 +1634,7 @@ section * {
 .header-20-sub {
   position: relative;
   z-index: 50;
-  height: 800px;
+  height: 500px;
   background-image: url("../img/wardrobe-consulting.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1729,7 +1722,7 @@ section * {
 .header-30-sub {
   position: relative;
   z-index: 50;
-  height: 800px;
+  height: 500px;
   background-image: url("../img/travel-white-bag.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1817,7 +1810,7 @@ section * {
 .header-40-sub {
   position: relative;
   z-index: 50;
-  height: 800px;
+  height: 500px;
   background-image: url("../img/closet-organization.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
