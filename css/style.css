@@ -1995,3 +1995,6 @@ section * {
     display: none;
   }
 }
+
+a.white {color: #fff;}
+a.white:hover {color: #222222;}
